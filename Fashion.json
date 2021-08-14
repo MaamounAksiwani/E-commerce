@@ -1,0 +1,45 @@
+[{
+        "id": 1,
+        "prodactName": "Reebok",
+        "Price": 50,
+        "OldPrice": 500,
+        "titelProdact": "Essentials Linear Logo Training Tracksuit Vector Navy",
+        "Img": "./img/Man1.jpg"
+    }, {
+        "id": 2,
+        "prodactName": "Nike",
+        "Price": 250,
+        "OldPrice": 500,
+        "titelProdact": "Repeat Logo Fleece Sweatpants Black/(White)",
+        "Img": "./img/Man2.jpg"
+    }, {
+        "id": 3,
+        "prodactName": "Nike",
+        "Price": 150,
+        "OldPrice": 500,
+        "titelProdact": "Graphic Polyester Gym Bag Black/White",
+        "Img": "./img/Man3.jpg"
+    },
+    {
+        "id": 4,
+        "prodactName": "adidas",
+        "Price": 180,
+        "OldPrice": 500,
+        "titelProdact": "Climacool Ventania Running Shoes Black",
+        "Img": "./img/Man4.jpg"
+    }, {
+        "id": 5,
+        "prodactName": "PUMA",
+        "Price": 120,
+        "OldPrice": 500,
+        "titelProdact": "Side Logo Printed Training Shorts Blue",
+        "Img": "./img/Man5.jpg"
+    }, {
+        "id": 6,
+        "prodactName": "Reebok",
+        "Price": 90,
+        "OldPrice": 150,
+        "titelProdact": "NY Embroidery Hip Hop Snapback Hat Black",
+        "Img": "./img/Man6.jpg"
+    }
+]

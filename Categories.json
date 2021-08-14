@@ -1,0 +1,34 @@
+[{
+        "ID": 1,
+        "Name": "Men",
+        "description": "Men's Fashion",
+        "Img": "./img/cat1.webp"
+    }, {
+        "ID": 2,
+        "Name": "Woman",
+        "description": "Woman's Fashion",
+        "Img": "./img/cat2.webp"
+    }, {
+        "ID": 3,
+        "Name": "Kids",
+        "description": "kid's Fashion",
+        "Img": "./img/cat3.webp"
+    },
+    {
+        "ID": 4,
+        "Name": "electronics & Mobile",
+        "description": "Laptop & accessories",
+        "Img": "./img/cat4.jpg"
+    },
+    {
+        "ID": 5,
+        "Name": "video-games",
+        "description": "video-games",
+        "Img": "./img/cat5.jpg"
+    }, {
+        "ID": 6,
+        "Name": "baby & Toys",
+        "description": "the packing list for baby",
+        "Img": "./img/cat6.jpg"
+    }
+]

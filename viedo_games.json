@@ -1,0 +1,45 @@
+[{
+        "id": 1,
+        "prodactName": "Mouse",
+        "Price": 149,
+        "OldPrice": 200,
+        "titelProdact": "Orochi V2 5G Mobile Wireless Gaming Mouse",
+        "Img": "./img/game1.jpg"
+    }, {
+        "id": 2,
+        "prodactName": "keyborad",
+        "Price": 250,
+        "OldPrice": 500,
+        "titelProdact": "LED Gaming Keyboard With Mouse Set Black",
+        "Img": "./img/game2.jpg"
+    }, {
+        "id": 3,
+        "prodactName": "SONY",
+        "Price": 150,
+        "OldPrice": 500,
+        "titelProdact": "Coolbaby Bluetooth Controller For SONY PS4 Gamepad For Play Station 4",
+        "Img": "./img/game3.jpg"
+    },
+    {
+        "id": 4,
+        "prodactName": "PUBG Corp",
+        "Price": 180,
+        "OldPrice": 500,
+        "titelProdact": "Playerunknown's Battlegrounds Game Preview Edition (Intl Version) - Action & Shooter - Xbox One",
+        "Img": "./img/game4.jpg"
+    }, {
+        "id": 5,
+        "prodactName": "Microphones",
+        "Price": 120,
+        "OldPrice": 500,
+        "titelProdact": "QuadCast Standalone Microphone HX-MICQC-BK Black/Red",
+        "Img": "./img/game5.jpg"
+    }, {
+        "id": 6,
+        "prodactName": "Headphones",
+        "Price": 90,
+        "OldPrice": 150,
+        "titelProdact": "Tune Bluetooth Over-Ear Headphones Black",
+        "Img": "./img/game6.jpg"
+    }
+]

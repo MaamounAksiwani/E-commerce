@@ -1,0 +1,45 @@
+[{
+        "id": 1,
+        "prodactName": "DEll",
+        "Price": 50,
+        "OldPrice": 500,
+        "titelProdact": "G3 15 3500, 15.6 Inches FHD Gaming Laptop, 10th Gen Intel Core i7-10750H/16GB RAM/256GB SSD+1TB",
+        "Img": "./img/lap1.jpg"
+    }, {
+        "id": 2,
+        "prodactName": "Hp",
+        "Price": 250,
+        "OldPrice": 500,
+        "titelProdact": "Pavilion X360 Convertible 2-In-1 Laptop With 14-Inch Display, Core i3 Processor/4GB RAM/256GB SSD/Intel",
+        "Img": "./img/lap2.jpg"
+    }, {
+        "id": 3,
+        "prodactName": "Hp",
+        "Price": 150,
+        "OldPrice": 500,
+        "titelProdact": "G5 15 5500, 15.6 Inches FHD Gaming Laptop, 10th Gen Intel Core i7-10750H/ 16GB RAM/ 512GB SSD/ Nvidia",
+        "Img": "./img/lap3.jpg"
+    },
+    {
+        "id": 4,
+        "prodactName": "MSI",
+        "Price": 180,
+        "OldPrice": 500,
+        "titelProdact": "GF63 Thin 10SCSR Laptop With 15-Inch Display, Core i7 Processer/16GB RAM/512GB SSD/4GB",
+        "Img": "./img/lap4.jpg"
+    }, {
+        "id": 5,
+        "prodactName": "Apple",
+        "Price": 180,
+        "OldPrice": 500,
+        "titelProdact": "Macbook Pro MYD92 2020 Laptop With 13-Inch Display, Core M1 Processor/8GB RAM/512 GB SSD/Intel Integrated",
+        "Img": "./img/lap5.jpg"
+    }, {
+        "id": 6,
+        "prodactName": "Apple",
+        "Price": 180,
+        "OldPrice": 500,
+        "titelProdact": "Apple MacBook Air With 13.3 - Inch Retina Display, Core i5 Processor / 10 th Gen / macOS / 8 GB RAM / 512 GB SSD / ",
+        "Img": "./img/lap6.jpg"
+    }
+]

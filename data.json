@@ -1,0 +1,45 @@
+[{
+        "id": 1,
+        "prodactName": "T-Shirt",
+        "Price": 50,
+        "OldPrice": 500,
+        "titelProdact": "All-Over Logo Slim Fit Polo Mini Flag All Over Embr",
+        "Img": "./img/1.jpg"
+    }, {
+        "id": 2,
+        "prodactName": "T-Shirt",
+        "Price": 250,
+        "OldPrice": 500,
+        "titelProdact": "All-Over Logo Slim Fit Polo Mini Flag All Over Embr",
+        "Img": "./img/2.jpg"
+    }, {
+        "id": 3,
+        "prodactName": "T-Shirt",
+        "Price": 150,
+        "OldPrice": 500,
+        "titelProdact": "All-Over Logo Slim Fit Polo Mini Flag All Over Embr",
+        "Img": "./img/3.jpg"
+    },
+    {
+        "id": 4,
+        "prodactName": "T-Shirt",
+        "Price": 180,
+        "OldPrice": 500,
+        "titelProdact": "All-Over Logo Slim Fit Polo Mini Flag All Over Embr",
+        "Img": "./img/4.jpg"
+    }, {
+        "id": 5,
+        "prodactName": "T-Shirt",
+        "Price": 120,
+        "OldPrice": 500,
+        "titelProdact": "All-Over Logo Slim Fit Polo Mini Flag All Over Embr",
+        "Img": "./img/5.jpg"
+    }, {
+        "id": 6,
+        "prodactName": "T-Shirt",
+        "Price": 90,
+        "OldPrice": 150,
+        "titelProdact": "All-Over Logo Slim Fit Polo Mini Flag All Over Embr",
+        "Img": "./img/6.jpg"
+    }
+]

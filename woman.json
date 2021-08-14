@@ -1,0 +1,45 @@
+[{
+        "id": 1,
+        "prodactName": "MANGO",
+        "Price": 50,
+        "OldPrice": 500,
+        "titelProdact": "Leather Boots Black",
+        "Img": "./img/woman1.jpg"
+    }, {
+        "id": 2,
+        "prodactName": "GHOSPELL",
+        "Price": 250,
+        "OldPrice": 500,
+        "titelProdact": "All-Over Print Jumpsuit Green",
+        "Img": "./img/woman2.jpg"
+    }, {
+        "id": 3,
+        "prodactName": "clarks",
+        "Price": 150,
+        "OldPrice": 500,
+        "titelProdact": "Laina55 Leather Court Shoes Navy",
+        "Img": "./img/woman3.jpg"
+    },
+    {
+        "id": 4,
+        "prodactName": "Miss Chase",
+        "Price": 180,
+        "OldPrice": 500,
+        "titelProdact": "Sun Will Shine Embroidered Kurta Yellow",
+        "Img": "./img/woman4.jpg"
+    }, {
+        "id": 5,
+        "prodactName": "UNDER ARMOUR",
+        "Price": 120,
+        "OldPrice": 500,
+        "titelProdact": "UA Armour Sport Pants Black / Onyx White",
+        "Img": "./img/woman5.jpg"
+    }, {
+        "id": 6,
+        "prodactName": "JOLLY",
+        "Price": 90,
+        "OldPrice": 150,
+        "titelProdact": "Shoulder, Handbag And Crossbody Bag Set Black",
+        "Img": "./img/woman6.jpg"
+    }
+]

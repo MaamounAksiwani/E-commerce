@@ -1,0 +1,45 @@
+[{
+        "id": 1,
+        "prodactName": "Sebamed",
+        "Price": 99,
+        "OldPrice": 150,
+        "titelProdact": "Baby Gentle Wash 400ml",
+        "Img": "./img/baby1.jpg"
+    }, {
+        "id": 2,
+        "prodactName": "Johnson's",
+        "Price": 21,
+        "OldPrice": 25,
+        "titelProdact": "Baby Wipes - Gentle All Over, 216 Wipes",
+        "Img": "./img/baby2.jpg"
+    }, {
+        "id": 3,
+        "prodactName": "Mustela",
+        "Price": 35,
+        "OldPrice": 109.5,
+        "titelProdact": "Pack of 2 Baby Skin Freshener for Hair and Body, 200ml",
+        "Img": "./img/baby3.jpg"
+    },
+    {
+        "id": 4,
+        "prodactName": "Pampers",
+        "Price": 70.1,
+        "OldPrice": 199,
+        "titelProdact": "Complete Clean Baby Wipes 12 Packs x 64 Wipes, 768 Count",
+        "Img": "./img/baby4.jpg"
+    }, {
+        "id": 5,
+        "prodactName": "Pampers",
+        "Price": 24,
+        "OldPrice": 50,
+        "titelProdact": "All-Over Logo Slim Fit Polo Mini Flag All Over Emb",
+        "Img": "./img/baby5.jpg"
+    }, {
+        "id": 6,
+        "prodactName": "Huggies",
+        "Price": 110,
+        "OldPrice": 149,
+        "titelProdact": "Drynites Pyjama Pants,Boy, 17-30 kg, 4 x 16 Bed Wetting Pants (64)",
+        "Img": "./img/baby6.jpg"
+    }
+]

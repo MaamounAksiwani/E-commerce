@@ -1,0 +1,45 @@
+[{
+        "id": 1,
+        "prodactName": "adidas",
+        "Price": 50,
+        "OldPrice": 500,
+        "titelProdact": "Kids Marvel Spider-Man Backpack Vivid Red/White/Black",
+        "Img": "./img/kid1.jpg"
+    }, {
+        "id": 2,
+        "prodactName": "adidas Originals",
+        "Price": 250,
+        "OldPrice": 500,
+        "titelProdact": "Kids Adicolor Skater Dress Black/White",
+        "Img": "./img/kid2.jpg"
+    }, {
+        "id": 3,
+        "prodactName": "Nike",
+        "Price": 150,
+        "OldPrice": 500,
+        "titelProdact": "Little Kids Flex Runner SE Shoes Grey",
+        "Img": "./img/kid3.jpg"
+    },
+    {
+        "id": 4,
+        "prodactName": "PUMA",
+        "Price": 180,
+        "OldPrice": 500,
+        "titelProdact": "Logo Detailed Sweatshirt And Joggers Set Peach",
+        "Img": "./img/kid4.jpg"
+    }, {
+        "id": 5,
+        "prodactName": "carter's",
+        "Price": 180,
+        "OldPrice": 500,
+        "titelProdact": "Kids Dinosaur Footed Onesie Multicolour",
+        "Img": "./img/kid5.jpg"
+    }, {
+        "id": 6,
+        "prodactName": "PUMA-originals",
+        "Price": 180,
+        "OldPrice": 500,
+        "titelProdact": "Kids/Teen The Unity Collection TFS Track Top",
+        "Img": "./img/kid6.jpg"
+    }
+]

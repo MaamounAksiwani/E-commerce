@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W05D05 Project-2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Georama:wght@100&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href='main.css'>
+</head>
+
+<body>
+    <!-- Start Navbar-->
+    <div class="nabar">
+        <!-- View on small device-->
+
+
+        <!-- View on small device-->
+        <div class='logo'>
+
+            <h3>Pan<span>da</span></h3>
+        </div>
+
+
+        <div class='btn_info'>
+            <button id='btn' onclick=''>Login</button>
+            <button id='reg'> Registrar</button>
+        </div>
+
+        <!-- Show btn info in mobile device-->
+
+        <!-- Reg Form -->
+        <div class='form-reg'>
+            <div class='main-reg'>
+                <i class="fas fa-times close"></i>
+                <h1>Registrar</h1>
+                <div id='showErrorReg'></div>
+                <form id='form_reg'>
+                    <label>Username</label>
+                    <input type='text' placeholder='Enter name' id='name_reg'>
+                    <label>Password</label>
+                    <input type='password' placeholder='Enter password' id='password_reg'>
+                    <label>Confirm Password</label>
+                    <input type='password' placeholder='Confirm password' id='password_com'>
+                    <input type='submit' value='Registrar'>
+                </form>
+            </div>
+        </div>
+        <!--  Reg form-->
+
+        <!-- form login -->
+        <div class='form-login'>
+            <div class='main-login'>
+                <i class="fas fa-times"></i>
+                <h1>Login</h1>
+                <form id='form'>
+                    <div id='showError'></div>
+                    <label>Username</label>
+                    <input type='text' placeholder='Enter name' id='name'>
+                    <label>Password</label>
+                    <input type='password' placeholder='Enter password' id='password'>
+                    <i class="fas fa-eye-slash unlock" id='togglePassword'></i>
+                    <input type='submit' value='login'>
+                </form>
+            </div>
+        </div>
+        <!--form login-->
+
+
+        <!-- show usersname info-->
+        <div id='usernameinfo'>
+
+            <div class='main-usernameinfo'>
+
+                <button id='logout'>logout</button>
+                <button type='button' id='cart-btn'>
+                        <i class="fas fa-cart-arrow-down"></i>
+                        <p class='cart-count-info'>0</p>
+                    </button>
+
+                <!-- view items card-->
+                <i class="fas fa-moon moon"></i>
+                <i class="fas fa-sun sun"></i>
+                <span class='viewinfo'></span>
+
+            </div>
+        </div>
+
+        <!-- view items card-->
+
+        <div class='item-card'>
+            <i class="fas fa-window-close"></i>
+            <div class='main-item'>
+                <div>
+                    <img src='./img/3.jpg' alt="!">
+                </div>
+
+                <div>
+                    <h1>Name of item</h1>
+                    <h4> Name : sdfsdfsdfsdfs </h4>
+                    <h4>Price : $150</h4>
+                </div>
+            </div>
+            <div class='cart-total'>
+                <h3> Total: </h3>
+                <p id='cart-total-value'>$4665565646</p>
+            </div>
+        </div>
+
+
+        <!-- show usersname info-->
+
+        <div class="toggle-menu">
+
+            <i class='fas fa-bars'></i>
+
+        </div>
+
+        <div class='toggle-close'>
+
+            <i class="fas fa-times"></i>
+
+        </div>
+    </div>
+
+    <!-- End Navbar-->
+
+
+    <!--Start Header-->
+    <header>
+        <div class='overlay'>
+            <div class='details-header'>
+                <h1>stone washed</h1>
+                <p>Faded in time for a timeless look</p>
+            </div>
+            <div class='icon-button'>
+            </div>
+        </div>
+    </header>
+    <!--End Header-->
+
+
+    <!-- Start Categories-->
+    <div class='container'>
+        <div class='category'>
+            <div class='category-info'>
+                <h1>MOST POPULAR CATEGORIES</h1>
+                <p>Here we have best Categories that coutomers deal with</p>
+            </div>
+        </div>
+        <!-- View Categories-->
+        <div class='view-category'>
+        </div>
+    </div>
+    <!-- End Categories-->
+
+
+
+
+    <hr>
+    <!-- Start Top Prodact Sales-->
+    <div class='container'>
+        <div class='topSales'>
+            <div class='detailsSales'>
+                <h1>Top Products Sales</h1>
+                <p>Here we have the best Prodacts that have been rated by coutomers</p>
+            </div>
+            <div class='MaintopSalesProdact'>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Prodact Sales-->
+
+    <!-- Start Slider -->
+
+
+    <div class="slideshow-container">
+
+        <div class="mySlides">
+            <img src="./img/img1.jpeg">
+        </div>
+
+
+        <div class="mySlides">
+            <img src="./img/img2.jpeg">
+        </div>
+
+        <div class="mySlides">
+            <img src="./img/img3.jpeg">
+
+        </div>
+        <div class="mySlides">
+            <img src="./img/img4.jpeg">
+
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)"><i class="fas fa-chevron-left"></i></a>
+        <a class="next" onclick="plusSlides(1)"><i class="fas fa-chevron-right"></i></a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <!-- End Slider-->
+
+
+    <!-- Start Categories Fashion Mens-->
+    <div class='container'>
+        <div class='viewbyGird'>
+
+            <h2>Fashion Men</h2>
+
+            <div>
+                <i class="fas fa-bars man-column"></i>
+                <i class="fas fa-th man-flex"></i>
+            </div>
+        </div>
+        <div class='Fash_Man' id='man'>
+        </div>
+    </div>
+    <!-- End Categories Fashion Mens-->
+
+
+
+
+    <!-- Start Categories Fashion Woman-->
+    <div class='container'>
+        <div class='viewbyGird'>
+
+            <h2>Fashion Woman</h2>
+
+            <div>
+                <i class="fas fa-bars woman-column"></i>
+                <i class="fas fa-th woman-flex"></i>
+            </div>
+        </div>
+        <div class='Fash_Woman'>
+        </div>
+    </div>
+    <!-- End Categories Fashion Woman-->
+
+
+
+    <!-- backgourd cover-->
+    <div class='cover'>
+        <div class='overlay'>
+            <div class='title'>
+                <h1>Panda E-commerce</h2>
+                    <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+    </div>
+    <!-- backgourd cover-->
+
+
+
+    <!-- Start Categories Fashion kid-->
+    <div class='container'>
+        <div class='viewbyGird'>
+
+            <h2>Fashion Kids</h2>
+
+            <div>
+                <i class="fas fa-bars kid-column"></i>
+                <i class="fas fa-th kid-flex"></i>
+            </div>
+        </div>
+        <div class='Fash_kid'>
+        </div>
+    </div>
+    <!-- End Categories Fashion kid-->
+
+
+
+    <!-- Start Categories  Laptop -->
+    <div class='container'>
+
+        <div class='viewbyGird'>
+
+            <h2>Laptop & accessories</h2>
+
+            <div>
+                <i class="fas fa-bars Laptop-column"></i>
+                <i class="fas fa-th Laptop-flex"></i>
+            </div>
+        </div>
+        <div class='Laptop'>
+        </div>
+    </div>
+    <!-- End Categories Fashion kid-->
+
+
+
+    <!-- Start cover overlay-->
+    <div class='video'>
+        <div class='overlay'>
+            <div class='title'>
+                <h1>Viedos Games</h2>
+                    <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+    </div>
+    <!--End Cover overlay-->
+
+    <!-- Start Categories  Laptop -->
+    <div class='container'>
+        <div class='viewbyGird'>
+            <h2>Video Games</h2>
+            <div>
+                <i class="fas fa-bars Video-column"></i>
+                <i class="fas fa-th Video-flex"></i>
+            </div>
+        </div>
+        <div class='video_games'>
+        </div>
+    </div>
+    <!-- End Categories Fashion kid-->
+
+    <!-- Start Categories  Laptop -->
+    <div class='container'>
+        <div class='viewbyGird'>
+            <h2>Baby Section</h2>
+            <div>
+                <i class="fas fa-bars Baby-column"></i>
+                <i class="fas fa-th Baby-flex"></i>
+            </div>
+        </div>
+        <div class='baby'>
+        </div>
+    </div>
+    <!-- End Categories Fashion kid-->
+
+
+    <!-- Our Services-->
+    <div class='container'>
+        <div class='serive-title'>
+            <h1>Our Services</h1>
+            <p>Have We have the Services Provided by our site</p>
+        </div>
+
+        <div class='serive-content'>
+            <div>
+                <i class="fas fa-dollar-sign"></i>
+                <p>100% guarantee of customers financial rights</p>
+            </div>
+            <div><i class="fas fa-thumbs-up"></i>
+                <p>Daily update of products and categories</div>
+            <div>
+                <i class="fas fa-truck"></i>
+                <p>Possibility of shipping to all countries </p>
+            </div>
+        </div>
+    </div>
+    <!-- Our Services-->
+
+
+    <!-- Footer-->
+    <footer>
+        <h3 class='footer__cop'>&#169; 2020 Copyright . All right reserved</h3>
+    </footer>
+    <!-- Footer-->
+
+
+    <!--Scroll Top-->
+    <div class='scroll'>
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    <!--Scroll Top-->
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src='main.js'></script>
+</body>
+
+</html>
